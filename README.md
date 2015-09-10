@@ -8,7 +8,7 @@ deletion.
 
 It also serves as an example for using OAuth to authenticate a modular input.
 More information can be found in Splunk's
-[Developer Guidance](http://splunk.com/goto/oauthmodinput)
+[Developer Guidance](http://dev.splunk.com/goto/oauthmodinput)
 
 ## Installing
 
