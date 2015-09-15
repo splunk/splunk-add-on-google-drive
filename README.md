@@ -52,3 +52,9 @@ Finally, we need to authorize the input. At the command line:
     prompt.
 3. Go back to the input you created above and disable and reenable it to kick
    off the modular input process immediately.
+
+## Case Study
+For a case study showcasing the application of this add-on, see the [Splunk Reference App - PAS](https://github.com/splunk/splunk-ref-pas-code) and the accompanying [Splunk Developer Guidance](http://dev.splunk.com/goto/devguide)
+
+## License
+The Splunk Add-on for Google Drive is licensed under the Apache License 2.0. Details can be found in the [LICENSE page](http://www.apache.org/licenses/LICENSE-2.0).
