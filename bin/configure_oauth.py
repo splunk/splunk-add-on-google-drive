@@ -74,10 +74,11 @@ class oauth_status(splunk.rest.BaseRestHandler):
                 self.response.write(e)
     handle_GET
 
-if __name__ == "__mainly__":
-    if len(sys.argv)!=3:
-            print "Usage:./splunk cmd python ../etc/apps/googledrive_addon/bin/configure_oauth.py INPUT_NAME CLIENT_ID CLIENT_SECRET"
-            sys.exit()
+if __name__ == "__main__":
+    if len(sys.argv)!=4:
+        print sys.argv
+        print "Usage:./splunk cmd python ../etc/apps/googledrive_addon/bin/configure_oauth.py INPUT_NAME CLIENT_ID CLIENT_SECRET"
+        sys.exit()
 
     input_name = sys.argv[1]
     client_id = sys.argv[2]
